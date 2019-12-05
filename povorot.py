@@ -60,5 +60,5 @@ def perem():
     T = T+1
     
 onTimer(perem, 1000)
-
+print ('Заебал')
 run()
