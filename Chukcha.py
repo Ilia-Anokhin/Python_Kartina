@@ -78,9 +78,9 @@ def perem():
         if chuk1[k]==1:
             moveObjectBy(chuk1[k], 10, 10)
         moveObjectBy(chuk1[k], 30,30)
+        print(yCoord(chuk1[k]))
 
-
-
+    print('end')
 
 onTimer(perem, 300)
 run()
